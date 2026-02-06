@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Layout from '@/components/Layout';
 import Home from '@/pages/Home';
 import ImageCompressor from '@/pages/ImageCompressor';
@@ -18,6 +19,7 @@ function App() {
           <Route path="qr-generator" element={<QrGenerator />} />
         </Route>
       </Routes>
+      <SpeedInsights />
     </Router>
   );
 }
