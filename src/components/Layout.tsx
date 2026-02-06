@@ -105,6 +105,8 @@ export default function Layout() {
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
             Built with Privacy in mind. No data leaves your browser.
+            <span className="mx-2">•</span>
+            <Link to="/privacy" className="underline underline-offset-4 hover:text-foreground">Privacy Policy</Link>
           </p>
         </div>
       </footer>
