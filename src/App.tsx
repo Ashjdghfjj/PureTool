@@ -7,6 +7,7 @@ import PasswordGenerator from '@/pages/PasswordGenerator';
 import QrGenerator from '@/pages/QrGenerator';
 
 import PrivacyPolicy from '@/pages/PrivacyPolicy';
+import NotFound from '@/pages/NotFound';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="password-generator" element={<PasswordGenerator />} />
         <Route path="qr-generator" element={<QrGenerator />} />
         <Route path="privacy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
