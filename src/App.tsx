@@ -12,6 +12,8 @@ import ColorConverter from '@/pages/ColorConverter';
 import DiffChecker from '@/pages/DiffChecker';
 
 import PrivacyPolicy from '@/pages/PrivacyPolicy';
+import TermsOfService from '@/pages/TermsOfService';
+import AboutUs from '@/pages/AboutUs';
 import NotFound from '@/pages/NotFound';
 
 function App() {

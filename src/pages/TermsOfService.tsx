@@ -1,8 +1,6 @@
-import { useTranslation } from 'react-i18next';
 import SEO from '@/components/SEO';
 
 export default function TermsOfService() {
-  const { t } = useTranslation();
 
   return (
     <div className="container mx-auto max-w-4xl px-4 py-12">

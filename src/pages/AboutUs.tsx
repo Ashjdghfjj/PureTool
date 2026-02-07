@@ -1,9 +1,7 @@
-import { useTranslation } from 'react-i18next';
 import { ShieldCheck, Github, Heart } from 'lucide-react';
 import SEO from '@/components/SEO';
 
 export default function AboutUs() {
-  const { t } = useTranslation();
 
   return (
     <div className="container mx-auto max-w-3xl px-4 py-12 flex flex-col items-center text-center">
