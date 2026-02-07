@@ -2,7 +2,7 @@ import SEO from '@/components/SEO';
 
 export default function PrivacyPolicy() {
   return (
-    <div className="container max-w-3xl py-12 space-y-8">
+    <div className="container mx-auto max-w-3xl py-12 space-y-8">
       <SEO 
         title="Privacy Policy" 
         description="Privacy Policy for PureTool. We do not collect any personal data. All processing happens locally in your browser." 
