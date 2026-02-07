@@ -57,12 +57,12 @@ export default function JsonFormatter() {
   };
 
   return (
-    <div className="container max-w-5xl py-8 space-y-8">
+    <div className="container max-w-5xl py-8 space-y-8 flex flex-col items-center">
       <SEO 
         title="JSON Formatter" 
         description="Online JSON Formatter and Validator. Prettify, minify, and validate JSON data locally in your browser." 
       />
-      <div className="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+      <div className="flex flex-col items-center gap-4 text-center">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">JSON Formatter & Validator</h1>
           <p className="text-muted-foreground mt-2">
@@ -71,7 +71,7 @@ export default function JsonFormatter() {
         </div>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 h-[600px]">
+      <div className="grid gap-6 md:grid-cols-2 h-[600px] w-full">
         {/* Input Section */}
         <div className="flex flex-col gap-2 h-full">
           <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">

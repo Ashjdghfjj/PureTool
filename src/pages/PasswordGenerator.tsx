@@ -80,7 +80,7 @@ export default function PasswordGenerator() {
   }
 
   return (
-    <div className="container max-w-3xl py-8 space-y-8">
+    <div className="container max-w-3xl py-8 space-y-8 flex flex-col items-center">
       <SEO 
         title="Password Generator" 
         description="Generate strong, secure passwords instantly in your browser. Customizable length and characters." 
@@ -93,7 +93,7 @@ export default function PasswordGenerator() {
         </p>
       </div>
 
-      <div className="bg-card border rounded-xl shadow-sm overflow-hidden">
+      <div className="bg-card border rounded-xl shadow-sm overflow-hidden w-full">
         {/* Password Display */}
         <div className="p-8 pb-4">
            <div className="relative">

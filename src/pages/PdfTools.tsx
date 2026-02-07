@@ -124,7 +124,7 @@ export default function PdfTools() {
   };
 
   return (
-    <div className="container max-w-4xl py-10 space-y-8">
+    <div className="container max-w-4xl py-10 space-y-8 flex flex-col items-center">
       <SEO 
         title={t('pdf.title')} 
         description="Secure local PDF tools. Merge PDFs, convert images to PDF. No server uploads." 
@@ -138,7 +138,7 @@ export default function PdfTools() {
       </div>
 
       {/* Tool Selector */}
-      <div className="flex justify-center gap-4">
+      <div className="flex justify-center gap-4 w-full">
         <button
           onClick={() => { setActiveTool('merge'); setFiles([]); }}
           className={cn(
@@ -169,7 +169,7 @@ export default function PdfTools() {
       <div
         {...getRootProps()}
         className={cn(
-          'border-2 border-dashed rounded-lg p-12 text-center cursor-pointer transition-colors',
+          'border-2 border-dashed rounded-lg p-12 text-center cursor-pointer transition-colors w-full',
           isDragActive
             ? 'border-primary bg-primary/10'
             : 'border-muted-foreground/25 hover:border-primary/50'
@@ -193,7 +193,7 @@ export default function PdfTools() {
 
       {/* File List */}
       {files.length > 0 && (
-        <div className="space-y-4">
+        <div className="space-y-4 w-full">
           <div className="flex items-center justify-between">
             <h3 className="font-semibold text-lg">
               {files.length} Files

@@ -24,7 +24,7 @@ export default function QrGenerator() {
   };
 
   return (
-    <div className="container max-w-4xl py-8 space-y-8">
+    <div className="container max-w-4xl py-8 space-y-8 flex flex-col items-center">
       <SEO 
         title="QR Code Generator" 
         description="Free online QR Code Generator. Create custom QR codes for URLs, text, and more. Download as PNG. Privacy-first, no server tracking." 
@@ -37,7 +37,7 @@ export default function QrGenerator() {
         </p>
       </div>
 
-      <div className="grid gap-8 md:grid-cols-2">
+      <div className="grid gap-8 md:grid-cols-2 w-full">
         {/* Settings */}
         <div className="space-y-6">
           <div className="space-y-2">
