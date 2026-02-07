@@ -124,7 +124,7 @@ export default function PdfTools() {
   };
 
   return (
-    <div className="container max-w-4xl py-10 space-y-8 flex flex-col items-center">
+    <div className="container mx-auto max-w-4xl py-10 space-y-8 flex flex-col items-center">
       <SEO 
         title={t('pdf.title')} 
         description="Secure local PDF tools. Merge PDFs, convert images to PDF. No server uploads." 
