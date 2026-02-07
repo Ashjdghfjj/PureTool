@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Code2, Copy, Trash2, ArrowRightLeft } from 'lucide-react';
+import { Code2, Copy, Trash2 } from 'lucide-react';
 import SEO from '@/components/SEO';
 
 type Mode = 'base64' | 'url';

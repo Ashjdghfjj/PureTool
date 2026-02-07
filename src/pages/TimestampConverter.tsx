@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Clock, Copy, RefreshCw } from 'lucide-react';
+import { Clock, Copy } from 'lucide-react';
 import SEO from '@/components/SEO';
 
 export default function TimestampConverter() {
