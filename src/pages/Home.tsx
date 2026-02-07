@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Image, Shield, Zap, Lock, FileJson, ArrowRight, QrCode, FileText } from 'lucide-react';
+import { Image, Shield, Zap, Lock, FileJson, ArrowRight, QrCode, FileText, Clock, Code2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import SEO from '@/components/SEO';
 import { MobileDonation } from '@/components/Donation';
@@ -100,6 +100,40 @@ export default function Home() {
                 <h3 className="font-bold text-xl mb-2">{t('home.tools.passwordGenerator.title')}</h3>
                 <p className="text-sm text-muted-foreground">
                    {t('home.tools.passwordGenerator.desc')}
+                </p>
+              </div>
+               <div className="mt-4 flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                Open Tool <ArrowRight className="ml-1 h-3 w-3" />
+              </div>
+            </div>
+          </Link>
+
+           <Link to="/timestamp" className="group relative overflow-hidden rounded-2xl border bg-background p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+            <div className="flex flex-col justify-between h-full">
+              <div>
+                <div className="mb-4 inline-flex p-3 rounded-lg bg-indigo-50 text-indigo-600 group-hover:bg-indigo-100 transition-colors">
+                  <Clock className="h-6 w-6" />
+                </div>
+                <h3 className="font-bold text-xl mb-2">{t('home.tools.timestamp.title')}</h3>
+                <p className="text-sm text-muted-foreground">
+                   {t('home.tools.timestamp.desc')}
+                </p>
+              </div>
+               <div className="mt-4 flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                Open Tool <ArrowRight className="ml-1 h-3 w-3" />
+              </div>
+            </div>
+          </Link>
+
+           <Link to="/encoders" className="group relative overflow-hidden rounded-2xl border bg-background p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+            <div className="flex flex-col justify-between h-full">
+              <div>
+                <div className="mb-4 inline-flex p-3 rounded-lg bg-pink-50 text-pink-600 group-hover:bg-pink-100 transition-colors">
+                  <Code2 className="h-6 w-6" />
+                </div>
+                <h3 className="font-bold text-xl mb-2">{t('home.tools.encoders.title')}</h3>
+                <p className="text-sm text-muted-foreground">
+                   {t('home.tools.encoders.desc')}
                 </p>
               </div>
                <div className="mt-4 flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">

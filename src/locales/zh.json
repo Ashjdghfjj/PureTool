@@ -6,6 +6,8 @@
     "passwordGenerator": "密码生成器",
     "qrGenerator": "二维码生成",
     "pdfTools": "PDF 工具箱",
+    "timestamp": "时间戳转换",
+    "encoders": "编码/解码",
     "github": "GitHub"
   },
   "home": {
@@ -31,6 +33,14 @@
       "pdfTools": {
         "title": "PDF 工具箱",
         "desc": "PDF 合并、拆分与转换"
+      },
+      "timestamp": {
+        "title": "时间戳转换",
+        "desc": "Unix 时间戳与日期互转"
+      },
+      "encoders": {
+        "title": "编码转换",
+        "desc": "Base64 和 URL 编码/解码"
       }
     }
   },
@@ -40,7 +50,25 @@
     "error": "错误",
     "copy": "复制",
     "copied": "已复制!",
-    "generate": "生成"
+    "generate": "生成",
+    "convert": "转换",
+    "input": "输入",
+    "output": "输出",
+    "outputPlaceholder": "结果将显示在这里...",
+    "clear": "清空"
+  },
+  "timestamp": {
+    "title": "时间戳转换",
+    "desc": "在线转换 Unix 时间戳为可读日期，或反向转换。",
+    "current": "当前 Unix 时间戳",
+    "tsToDate": "时间戳 转 日期",
+    "dateToTs": "日期 转 时间戳"
+  },
+  "encoders": {
+    "title": "编码转换工具",
+    "desc": "在线 Base64 和 URL 编码/解码工具。",
+    "encode": "编码 (Encode)",
+    "decode": "解码 (Decode)"
   },
   "pdf": {
     "title": "PDF 工具箱",

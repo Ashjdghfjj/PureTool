@@ -6,6 +6,8 @@
     "passwordGenerator": "Password Generator",
     "qrGenerator": "QR Generator",
     "pdfTools": "PDF Tools",
+    "timestamp": "Timestamp",
+    "encoders": "Encoders",
     "github": "GitHub"
   },
   "home": {
@@ -31,6 +33,14 @@
       "pdfTools": {
         "title": "PDF Tools",
         "desc": "Merge, split, and convert to PDF"
+      },
+      "timestamp": {
+        "title": "Timestamp Converter",
+        "desc": "Unix timestamp to Date conversions"
+      },
+      "encoders": {
+        "title": "Text Encoders",
+        "desc": "Base64 & URL Encode/Decode"
       }
     }
   },
@@ -40,7 +50,25 @@
     "error": "Error",
     "copy": "Copy",
     "copied": "Copied!",
-    "generate": "Generate"
+    "generate": "Generate",
+    "convert": "Convert",
+    "input": "Input",
+    "output": "Output",
+    "outputPlaceholder": "Result will appear here...",
+    "clear": "Clear"
+  },
+  "timestamp": {
+    "title": "Timestamp Converter",
+    "desc": "Convert Unix timestamps to human-readable dates and vice versa.",
+    "current": "Current Unix Timestamp",
+    "tsToDate": "Timestamp to Date",
+    "dateToTs": "Date to Timestamp"
+  },
+  "encoders": {
+    "title": "Text Encoders",
+    "desc": "Base64 and URL encoding/decoding tools.",
+    "encode": "Encode",
+    "decode": "Decode"
   },
   "pdf": {
     "title": "PDF Tools",

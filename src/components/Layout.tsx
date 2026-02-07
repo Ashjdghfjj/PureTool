@@ -22,6 +22,8 @@ export default function Layout() {
     { name: t('nav.passwordGenerator'), path: '/password-generator' },
     { name: t('nav.qrGenerator'), path: '/qr-generator' },
     { name: t('nav.pdfTools'), path: '/pdf-tools' },
+    { name: t('nav.timestamp'), path: '/timestamp' },
+    { name: t('nav.encoders'), path: '/encoders' },
   ];
 
   return (

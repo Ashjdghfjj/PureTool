@@ -6,6 +6,8 @@ import JsonFormatter from '@/pages/JsonFormatter';
 import PasswordGenerator from '@/pages/PasswordGenerator';
 import QrGenerator from '@/pages/QrGenerator';
 import PdfTools from '@/pages/PdfTools';
+import TimestampConverter from '@/pages/TimestampConverter';
+import Encoders from '@/pages/Encoders';
 
 import PrivacyPolicy from '@/pages/PrivacyPolicy';
 import NotFound from '@/pages/NotFound';
@@ -20,6 +22,8 @@ function App() {
         <Route path="password-generator" element={<PasswordGenerator />} />
         <Route path="qr-generator" element={<QrGenerator />} />
         <Route path="pdf-tools" element={<PdfTools />} />
+        <Route path="timestamp" element={<TimestampConverter />} />
+        <Route path="encoders" element={<Encoders />} />
         <Route path="privacy" element={<PrivacyPolicy />} />
         <Route path="*" element={<NotFound />} />
       </Route>
