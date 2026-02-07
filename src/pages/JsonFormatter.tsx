@@ -57,7 +57,7 @@ export default function JsonFormatter() {
   };
 
   return (
-    <div className="container max-w-5xl py-8 space-y-8 flex flex-col items-center">
+    <div className="container mx-auto max-w-5xl py-8 space-y-8 flex flex-col items-center">
       <SEO 
         title="JSON Formatter" 
         description="Online JSON Formatter and Validator. Prettify, minify, and validate JSON data locally in your browser." 
