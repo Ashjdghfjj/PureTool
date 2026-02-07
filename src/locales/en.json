@@ -9,8 +9,8 @@
     "github": "GitHub"
   },
   "home": {
-    "title": "Privacy-First Web Toolbox",
-    "subtitle": "Essential developer tools that run entirely in your browser. No server uploads, 100% privacy.",
+    "title": "Secure Client-Side Developer Toolbox",
+    "subtitle": "Free tools running 100% in your browser. Merge PDFs, compress images, and format JSON without sending data to any server.",
     "tools": {
       "imageCompressor": {
         "title": "Image Compressor",

@@ -9,8 +9,8 @@
     "github": "GitHub"
   },
   "home": {
-    "title": "隐私优先的网页工具箱",
-    "subtitle": "所有工具完全在浏览器本地运行。无需上传服务器，100% 保护您的隐私。",
+    "title": "安全纯净的前端开发工具箱",
+    "subtitle": "所有工具完全在浏览器本地运行，无需上传服务器。支持 PDF 合并、图片转 PDF、图片压缩、JSON 格式化等，100% 保护隐私。",
     "tools": {
       "imageCompressor": {
         "title": "图片压缩",

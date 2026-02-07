@@ -13,7 +13,7 @@ export default defineConfig({
       manifest: {
         name: 'PureTool',
         short_name: 'PureTool',
-        description: 'Privacy-First Developer Tools',
+        description: 'Secure Client-Side Developer Tools (PDF, JSON, Images)',
         theme_color: '#ffffff',
         icons: [
           {
