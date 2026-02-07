@@ -67,7 +67,7 @@ export default function PdfTools() {
       }
 
       const pdfBytes = await mergedPdf.save();
-      const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+      const blob = new Blob([pdfBytes as unknown as BlobPart], { type: 'application/pdf' });
       downloadBlob(blob, 'merged.pdf');
     } catch (error) {
       console.error('Merge error:', error);

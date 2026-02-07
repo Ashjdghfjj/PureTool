@@ -5,6 +5,7 @@ import ImageCompressor from '@/pages/ImageCompressor';
 import JsonFormatter from '@/pages/JsonFormatter';
 import PasswordGenerator from '@/pages/PasswordGenerator';
 import QrGenerator from '@/pages/QrGenerator';
+import PdfTools from '@/pages/PdfTools';
 
 import PrivacyPolicy from '@/pages/PrivacyPolicy';
 import NotFound from '@/pages/NotFound';
