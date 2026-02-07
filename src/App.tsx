@@ -8,6 +8,8 @@ import QrGenerator from '@/pages/QrGenerator';
 import PdfTools from '@/pages/PdfTools';
 import TimestampConverter from '@/pages/TimestampConverter';
 import Encoders from '@/pages/Encoders';
+import ColorConverter from '@/pages/ColorConverter';
+import DiffChecker from '@/pages/DiffChecker';
 
 import PrivacyPolicy from '@/pages/PrivacyPolicy';
 import NotFound from '@/pages/NotFound';
@@ -24,6 +26,8 @@ function App() {
         <Route path="pdf-tools" element={<PdfTools />} />
         <Route path="timestamp" element={<TimestampConverter />} />
         <Route path="encoders" element={<Encoders />} />
+        <Route path="color" element={<ColorConverter />} />
+        <Route path="diff" element={<DiffChecker />} />
         <Route path="privacy" element={<PrivacyPolicy />} />
         <Route path="*" element={<NotFound />} />
       </Route>

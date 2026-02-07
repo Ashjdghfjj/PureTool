@@ -8,6 +8,8 @@
     "pdfTools": "PDF 工具箱",
     "timestamp": "时间戳转换",
     "encoders": "编码/解码",
+    "color": "颜色转换",
+    "diff": "文本对比",
     "github": "GitHub"
   },
   "home": {
@@ -41,6 +43,14 @@
       "encoders": {
         "title": "编码转换",
         "desc": "Base64 和 URL 编码/解码"
+      },
+      "color": {
+        "title": "颜色转换",
+        "desc": "HEX, RGB, HSL 格式互转"
+      },
+      "diff": {
+        "title": "文本对比",
+        "desc": "在线比较两段文本差异"
       }
     }
   },
@@ -69,6 +79,19 @@
     "desc": "在线 Base64 和 URL 编码/解码工具。",
     "encode": "编码 (Encode)",
     "decode": "解码 (Decode)"
+  },
+  "color": {
+    "title": "颜色转换工具",
+    "desc": "在线 HEX, RGB, HSL 颜色格式转换工具。"
+  },
+  "diff": {
+    "title": "文本对比工具",
+    "desc": "在线比较两段文本或代码的差异。",
+    "original": "原始文本",
+    "modified": "修改后文本",
+    "originalPlaceholder": "在此粘贴原始文本...",
+    "modifiedPlaceholder": "在此粘贴修改后的文本...",
+    "compare": "开始对比"
   },
   "pdf": {
     "title": "PDF 工具箱",

@@ -24,6 +24,8 @@ export default function Layout() {
     { name: t('nav.pdfTools'), path: '/pdf-tools' },
     { name: t('nav.timestamp'), path: '/timestamp' },
     { name: t('nav.encoders'), path: '/encoders' },
+    { name: t('nav.color'), path: '/color' },
+    { name: t('nav.diff'), path: '/diff' },
   ];
 
   return (

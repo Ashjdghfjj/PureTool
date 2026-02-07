@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Image, Shield, Zap, Lock, FileJson, ArrowRight, QrCode, FileText, Clock, Code2 } from 'lucide-react';
+import { Image, Shield, Zap, Lock, FileJson, ArrowRight, QrCode, FileText, Clock, Code2, Palette, GitCompare } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import SEO from '@/components/SEO';
 import { MobileDonation } from '@/components/Donation';
@@ -126,23 +126,57 @@ export default function Home() {
           </Link>
 
            <Link to="/encoders" className="group relative overflow-hidden rounded-2xl border bg-background p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300">
-            <div className="flex flex-col justify-between h-full">
-              <div>
-                <div className="mb-4 inline-flex p-3 rounded-lg bg-pink-50 text-pink-600 group-hover:bg-pink-100 transition-colors">
-                  <Code2 className="h-6 w-6" />
-                </div>
-                <h3 className="font-bold text-xl mb-2">{t('home.tools.encoders.title')}</h3>
-                <p className="text-sm text-muted-foreground">
-                   {t('home.tools.encoders.desc')}
-                </p>
-              </div>
-               <div className="mt-4 flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                Open Tool <ArrowRight className="ml-1 h-3 w-3" />
-              </div>
-            </div>
-          </Link>
-        </div>
-      </section>
+             <div className="flex flex-col justify-between h-full">
+               <div>
+                 <div className="mb-4 inline-flex p-3 rounded-lg bg-pink-50 text-pink-600 group-hover:bg-pink-100 transition-colors">
+                   <Code2 className="h-6 w-6" />
+                 </div>
+                 <h3 className="font-bold text-xl mb-2">{t('home.tools.encoders.title')}</h3>
+                 <p className="text-sm text-muted-foreground">
+                    {t('home.tools.encoders.desc')}
+                 </p>
+               </div>
+                <div className="mt-4 flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                 Open Tool <ArrowRight className="ml-1 h-3 w-3" />
+               </div>
+             </div>
+           </Link>
+
+           <Link to="/color" className="group relative overflow-hidden rounded-2xl border bg-background p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+             <div className="flex flex-col justify-between h-full">
+               <div>
+                 <div className="mb-4 inline-flex p-3 rounded-lg bg-cyan-50 text-cyan-600 group-hover:bg-cyan-100 transition-colors">
+                   <Palette className="h-6 w-6" />
+                 </div>
+                 <h3 className="font-bold text-xl mb-2">{t('home.tools.color.title')}</h3>
+                 <p className="text-sm text-muted-foreground">
+                    {t('home.tools.color.desc')}
+                 </p>
+               </div>
+                <div className="mt-4 flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                 Open Tool <ArrowRight className="ml-1 h-3 w-3" />
+               </div>
+             </div>
+           </Link>
+
+           <Link to="/diff" className="group relative overflow-hidden rounded-2xl border bg-background p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+             <div className="flex flex-col justify-between h-full">
+               <div>
+                 <div className="mb-4 inline-flex p-3 rounded-lg bg-slate-50 text-slate-600 group-hover:bg-slate-100 transition-colors">
+                   <GitCompare className="h-6 w-6" />
+                 </div>
+                 <h3 className="font-bold text-xl mb-2">{t('home.tools.diff.title')}</h3>
+                 <p className="text-sm text-muted-foreground">
+                    {t('home.tools.diff.desc')}
+                 </p>
+               </div>
+                <div className="mt-4 flex items-center text-sm font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                 Open Tool <ArrowRight className="ml-1 h-3 w-3" />
+               </div>
+             </div>
+           </Link>
+         </div>
+       </section>
 
       <section className="container space-y-6 py-8 md:py-12 lg:py-24">
         <div className="mx-auto grid justify-center gap-8 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">

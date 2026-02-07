@@ -8,6 +8,8 @@
     "pdfTools": "PDF Tools",
     "timestamp": "Timestamp",
     "encoders": "Encoders",
+    "color": "Color Converter",
+    "diff": "Diff Checker",
     "github": "GitHub"
   },
   "home": {
@@ -41,6 +43,14 @@
       "encoders": {
         "title": "Text Encoders",
         "desc": "Base64 & URL Encode/Decode"
+      },
+      "color": {
+        "title": "Color Converter",
+        "desc": "HEX, RGB, HSL conversion"
+      },
+      "diff": {
+        "title": "Diff Checker",
+        "desc": "Compare text differences"
       }
     }
   },
@@ -69,6 +79,19 @@
     "desc": "Base64 and URL encoding/decoding tools.",
     "encode": "Encode",
     "decode": "Decode"
+  },
+  "color": {
+    "title": "Color Converter",
+    "desc": "Convert colors between HEX, RGB, and HSL formats."
+  },
+  "diff": {
+    "title": "Diff Checker",
+    "desc": "Compare two text files or blocks to find differences.",
+    "original": "Original Text",
+    "modified": "Modified Text",
+    "originalPlaceholder": "Paste original text here...",
+    "modifiedPlaceholder": "Paste modified text here...",
+    "compare": "Compare Text"
   },
   "pdf": {
     "title": "PDF Tools",
