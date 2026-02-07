@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "PureTool",
+    "imageCompressor": "图片压缩",
+    "jsonFormatter": "JSON 格式化",
+    "passwordGenerator": "密码生成器",
+    "qrGenerator": "二维码生成",
+    "pdfTools": "PDF 工具箱",
+    "github": "GitHub"
+  },
+  "home": {
+    "title": "隐私优先的网页工具箱",
+    "subtitle": "所有工具完全在浏览器本地运行。无需上传服务器，100% 保护您的隐私。",
+    "tools": {
+      "imageCompressor": {
+        "title": "图片压缩",
+        "desc": "本地压缩 JPG/PNG/WebP 图片"
+      },
+      "jsonFormatter": {
+        "title": "JSON 格式化",
+        "desc": "验证并美化 JSON 数据"
+      },
+      "passwordGenerator": {
+        "title": "密码生成器",
+        "desc": "生成安全随机密码"
+      },
+      "qrGenerator": {
+        "title": "二维码生成",
+        "desc": "制作自定义二维码"
+      },
+      "pdfTools": {
+        "title": "PDF 工具箱",
+        "desc": "PDF 合并、拆分与转换"
+      }
+    }
+  },
+  "common": {
+    "processing": "处理中...",
+    "download": "下载",
+    "error": "错误",
+    "copy": "复制",
+    "copied": "已复制!",
+    "generate": "生成"
+  },
+  "pdf": {
+    "title": "PDF 工具箱",
+    "merge": "合并 PDF",
+    "imagesToPdf": "图片转 PDF",
+    "dropPdfs": "拖放 PDF 文件到这里",
+    "dropImages": "拖放图片到这里",
+    "dragDrop": "拖放文件到这里，或点击选择",
+    "addMore": "添加更多文件",
+    "clear": "清空所有",
+    "downloadMerged": "下载合并后的 PDF",
+    "downloadPdf": "下载 PDF"
+  }
+}

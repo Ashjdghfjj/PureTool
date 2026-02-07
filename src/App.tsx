@@ -18,6 +18,7 @@ function App() {
         <Route path="json-formatter" element={<JsonFormatter />} />
         <Route path="password-generator" element={<PasswordGenerator />} />
         <Route path="qr-generator" element={<QrGenerator />} />
+        <Route path="pdf-tools" element={<PdfTools />} />
         <Route path="privacy" element={<PrivacyPolicy />} />
         <Route path="*" element={<NotFound />} />
       </Route>

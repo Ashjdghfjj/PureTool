@@ -1,6 +1,7 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { ShieldCheck, Github, Menu, X, Sun, Moon } from 'lucide-react';
+import { ShieldCheck, Github, Menu, X, Sun, Moon, Languages } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { cn } from '@/utils/cn';
 import { useTheme } from '@/components/ThemeProvider';
 import Donation from '@/components/Donation';
@@ -9,12 +10,18 @@ export default function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const { setTheme, theme } = useTheme();
+  const { t, i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    i18n.changeLanguage(i18n.language === 'en' ? 'zh' : 'en');
+  };
 
   const navItems = [
-    { name: 'Image Compressor', path: '/image-compressor' },
-    { name: 'JSON Formatter', path: '/json-formatter' },
-    { name: 'Password Generator', path: '/password-generator' },
-    { name: 'QR Generator', path: '/qr-generator' },
+    { name: t('nav.imageCompressor'), path: '/image-compressor' },
+    { name: t('nav.jsonFormatter'), path: '/json-formatter' },
+    { name: t('nav.passwordGenerator'), path: '/password-generator' },
+    { name: t('nav.qrGenerator'), path: '/qr-generator' },
+    { name: t('nav.pdfTools'), path: '/pdf-tools' },
   ];
 
   return (
@@ -45,6 +52,14 @@ export default function Layout() {
           </div>
           
           <div className="flex items-center gap-2">
+              <button
+                onClick={toggleLanguage}
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+                title="Switch Language"
+              >
+                <Languages className="h-[1.2rem] w-[1.2rem]" />
+                <span className="sr-only">Toggle language</span>
+              </button>
               <button
                 onClick={() => setTheme(theme === "light" ? "dark" : "light")}
                 className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"

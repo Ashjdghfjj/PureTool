@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "PureTool",
+    "imageCompressor": "Image Compressor",
+    "jsonFormatter": "JSON Formatter",
+    "passwordGenerator": "Password Generator",
+    "qrGenerator": "QR Generator",
+    "pdfTools": "PDF Tools",
+    "github": "GitHub"
+  },
+  "home": {
+    "title": "Privacy-First Web Toolbox",
+    "subtitle": "Essential developer tools that run entirely in your browser. No server uploads, 100% privacy.",
+    "tools": {
+      "imageCompressor": {
+        "title": "Image Compressor",
+        "desc": "Compress JPG/PNG/WebP locally"
+      },
+      "jsonFormatter": {
+        "title": "JSON Formatter",
+        "desc": "Validate and prettify JSON"
+      },
+      "passwordGenerator": {
+        "title": "Password Generator",
+        "desc": "Create secure random passwords"
+      },
+      "qrGenerator": {
+        "title": "QR Generator",
+        "desc": "Create custom QR codes"
+      },
+      "pdfTools": {
+        "title": "PDF Tools",
+        "desc": "Merge, split, and convert to PDF"
+      }
+    }
+  },
+  "common": {
+    "processing": "Processing...",
+    "download": "Download",
+    "error": "Error",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "generate": "Generate"
+  },
+  "pdf": {
+    "title": "PDF Tools",
+    "merge": "Merge PDFs",
+    "imagesToPdf": "Images to PDF",
+    "dropPdfs": "Drop PDF files here",
+    "dropImages": "Drop images here",
+    "dragDrop": "Drag & drop files here, or click to select",
+    "addMore": "Add More Files",
+    "clear": "Clear All",
+    "downloadMerged": "Download Merged PDF",
+    "downloadPdf": "Download PDF"
+  }
+}
