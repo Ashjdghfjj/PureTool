@@ -47,7 +47,7 @@ export default function AboutUs() {
           </div>
           <div className="p-6 bg-card border rounded-xl shadow-sm flex flex-col items-center">
             <span className="text-3xl mb-2">💸</span>
-            <h3 className="font-bold">Always Free</h3>
+            <h3 className="font-bold">Free to Use</h3>
             <p className="text-sm text-muted-foreground">Open Source</p>
           </div>
         </div>
