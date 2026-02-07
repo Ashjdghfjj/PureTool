@@ -120,13 +120,27 @@ export default function Layout() {
       <Donation />
 
 
-      <footer className="py-6 md:px-8 md:py-0">
-        <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-          <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
-            Built with Privacy in mind. No data leaves your browser.
-            <span className="mx-2">•</span>
-            <Link to="/privacy" className="underline underline-offset-4 hover:text-foreground">Privacy Policy</Link>
-          </p>
+      <footer className="py-8 md:py-12 border-t bg-muted/20 mt-auto">
+        <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col items-center md:items-start gap-2">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="h-5 w-5 text-primary" />
+              <span className="font-bold text-lg">PureTool</span>
+            </div>
+            <p className="text-sm text-muted-foreground text-center md:text-left">
+              Built with privacy in mind. <br className="md:hidden" />No data leaves your browser.
+            </p>
+            <p className="text-xs text-muted-foreground mt-2">
+              © {new Date().getFullYear()} PureTool. All rights reserved.
+            </p>
+          </div>
+          
+          <div className="flex flex-wrap justify-center gap-6 md:gap-8 text-sm font-medium text-muted-foreground">
+             <Link to="/about" className="hover:text-foreground transition-colors">About Us</Link>
+             <Link to="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
+             <Link to="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link>
+             <a href="https://github.com/Ashjdghfjj/PureTool" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">GitHub</a>
+          </div>
         </div>
       </footer>
     </div>

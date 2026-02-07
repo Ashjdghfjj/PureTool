@@ -59,11 +59,11 @@ export default function DiffChecker() {
       </button>
 
       {diffResult.length > 0 && (
-        <div className="w-full bg-card border rounded-xl p-6 shadow-sm overflow-x-auto">
+        <div className="w-full bg-card border rounded-xl p-6 shadow-sm overflow-x-auto dark:bg-zinc-900/50">
           <pre className="font-mono text-sm whitespace-pre-wrap">
             {diffResult.map((part, index) => {
-              const color = part.added ? 'bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300' :
-                part.removed ? 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300' : 
+              const color = part.added ? 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300' :
+                part.removed ? 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300' : 
                 'text-muted-foreground';
               
               return (

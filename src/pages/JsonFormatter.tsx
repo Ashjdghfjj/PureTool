@@ -79,7 +79,7 @@ export default function JsonFormatter() {
           </label>
           <div className="relative flex-1">
             <textarea
-              className="absolute inset-0 w-full h-full p-4 font-mono text-sm resize-none border rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50 bg-background"
+              className="absolute inset-0 w-full h-full p-4 font-mono text-sm resize-none border rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50 bg-background dark:bg-zinc-900/50"
               placeholder='Paste your JSON here... e.g. {"name": "PureTool", "private": true}'
               value={input}
               onChange={(e) => setInput(e.target.value)}
@@ -121,7 +121,7 @@ export default function JsonFormatter() {
           </div>
           
           <div className={cn(
-            "relative flex-1 border rounded-md bg-muted/30 overflow-hidden",
+            "relative flex-1 border rounded-md bg-muted/30 overflow-hidden dark:bg-zinc-900/50",
             error && "border-destructive/50 bg-destructive/5"
           )}>
             {error ? (

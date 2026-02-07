@@ -29,6 +29,8 @@ function App() {
         <Route path="color" element={<ColorConverter />} />
         <Route path="diff" element={<DiffChecker />} />
         <Route path="privacy" element={<PrivacyPolicy />} />
+        <Route path="terms" element={<TermsOfService />} />
+        <Route path="about" element={<AboutUs />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
