@@ -3,14 +3,9 @@
   "name": "PureTool - Privacy-First Developer Tools",
   "version": "1.0.0",
   "description": "Secure, offline developer tools. PDF Merger, JSON Formatter, Image Compressor and more. No data leaves your device.",
-  "icons": {
-    "192": "pwa-192x192.png",
-    "512": "pwa-512x512.png"
-  },
   "action": {
     "default_title": "PureTool",
-    "default_popup": "index.html",
-    "default_icon": "favicon.ico"
+    "default_popup": "index.html"
   },
   "permissions": []
 }
