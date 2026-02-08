@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Coffee, X, QrCode } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 
 interface DonationModalProps {
   isOpen: boolean;
@@ -8,7 +7,6 @@ interface DonationModalProps {
 }
 
 export default function DonationModal({ isOpen, onClose }: DonationModalProps) {
-  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'global' | 'cn'>('global');
 
   if (!isOpen) return null;
